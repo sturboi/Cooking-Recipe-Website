@@ -1,0 +1,45 @@
+body {
+    font-family: 'DM Serif Display', serif;
+    background-color: #FFEBEC;
+    color: #EE7650;
+}
+
+/* Hero Section */
+
+.hero {
+    background-image: url("../images/family\ cooking.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.hero h1 {
+    text-align: right;
+    margin-right: 295px;
+    padding-top: 300px;
+}
+
+.appStores {
+  margin-right: 320px;
+}
+
+/* Features Section */
+.row img {
+    max-width: 700px;
+    max-height: 350px;
+}
+
+.about .header{
+    text-align: center;
+}
+
+.about {
+    padding-top: 200px;
+}
+
+/* About Us Section */
+.header {
+    max-width: 1000px;
+    text-align: center;
+}
