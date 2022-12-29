@@ -11,6 +11,17 @@ p {
     font-family: 'Raleway', serif;
 }
 
+/* Navigation Section */
+
+.navbar-nav .nav-link {
+    color: #EE7650 !important;
+    font-size: 20px !important;
+}
+
+.navbar-nav a:hover {
+    background-color: #FFE3E5 !important;
+}
+
 /* Hero Section */
 
 .hero {
@@ -28,10 +39,15 @@ p {
 }
 
 .appStores {
-  margin-right: 320px;
+    margin-right: 320px;
+}
+
+.appStores img {
+    cursor: pointer;
 }
 
 /* Features Section */
+
 .row img {
     max-width: 700px;
     max-height: 350px;
@@ -48,19 +64,27 @@ p {
 }
 
 /* About Us Section */
+
 .about {
     background-color: #FFE3E5;
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 150px;
 }
 
-.about .header{
+.about .header {
     text-align: center;
 }
+
 .header {
     text-align: center;
 }
 
 .about .container {
     max-width: 1000px;
+}
+
+.appStores2 {
+    cursor: pointer;
+    margin-top: 80px;
+    margin-right: 300px;
 }
