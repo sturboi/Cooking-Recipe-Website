@@ -41,12 +41,19 @@ p {
 
 .hero h1 {
     text-align: right;
-    margin-right: 107px;
-    padding-top: 250px;
+    margin-right: 300px;
+    padding-top: 300px;
+}
+
+.hero h1 span {
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .appStores {
-    margin-right: 105px;
+    margin-right: 300px;
     background-color: #EE7650;
 }
 
