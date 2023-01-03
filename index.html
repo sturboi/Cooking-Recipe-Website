@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Raleway:wght@400;700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <title> heirloom </title>
     <link rel="icon" type="image/x-icon" href="/Cooking Recipe App/images/tomato.png">
@@ -14,9 +16,9 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-      <div class="container-fluid">
+      <div class="container-fluid animate__animated animate__slideInDown">
         <a class="navbar-brand" href="#">
-          <img src="/Cooking Recipe App/images/Heirloom Logo.png" width="190" height="40">
+          <img src="/Cooking Recipe App/images/Heirloom Logo.png" width="220" height="50">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,27 +35,31 @@
 
     <!-- Hero Section -->
     <section class="hero">
-      <div class="jumbotron"> 
-        <h1 class="display-3"> Available Now! </h1>
-        <div class="appStores">
-          <img src="/Cooking Recipe App/images/app-store-badge.svg" class="float-end" width="190" height="50">
-          <img src="/Cooking Recipe App/images/google-play-badge.svg" class="float-end" width="190" height="50">
-        </div> 
-      </div>
+        <div class="hero-elements animate__animated animate__slideInRight">
+          <h1 class="display-4"> Available Now! </h1>
+          <div class="appStores">
+            <img src="/Cooking Recipe App/images/app-store-badge.svg" class="float-end" width="190" height="50">
+            <img src="/Cooking Recipe App/images/google-play-badge.svg" class="float-end" width="190" height="50">
+          </div> 
+        </div>
     </section> 
 
     <br>
 
     <!-- Features Section -->
-    <section class="features">
+    <section class="features animate__animated animate__slideInUp">
+
+      <h1> Features </h1>
+
       <div class="container">
         <div class="row">
           <div class="col">
             <img src="images/family cooking.gif">
           </div>
           <div class="col">
-            <h2> Feature 1 </h2>
-            <p style="text-align: left;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lacus arcu. Nam eget arcu non lacus sagittis suscipit vel vitae odio. Aenean id viverra diam. Sed in ex sollicitudin, placerat ante nec, laoreet nisl. Praesent sagittis consectetur libero. Donec placerat, ipsum a ornare porta, libero libero vehicula leo, tincidunt tempus lectus lectus sit amet massa. Pellentesque tincidunt eu ante quis sagittis. Sed laoreet tincidunt accumsan. Nullam scelerisque, dolor vitae ornare dictum, risus nisl vehicula mauris, vel placerat nisi magna sit amet purus. Nulla a sem augue. Donec ultricies dignissim malesuada. Suspendisse sed cursus velit. </p>
+            <h2> Voice Command </h2>
+            <p style="text-align: left;"> The voice command feature on Heirloom is a convenient and innovative way to use the app hands-free in the kitchen. With this feature, you can simply speak your commands to Heirloom and it will respond accordingly. Use your voice to search for a specific recipe, add an ingredient to a shopping list, or have the app read out cooking instructions. This feature makes it easy to multitask in the kitchen and frees up your hands to focus on cooking. </p>
+            </p>
           </div>
         </div>
   
@@ -62,8 +68,8 @@
   
         <div class="row">
           <div class="col">
-            <h2> Feature 2 </h2>
-            <p style="text-align: left;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lacus arcu. Nam eget arcu non lacus sagittis suscipit vel vitae odio. Aenean id viverra diam. Sed in ex sollicitudin, placerat ante nec, laoreet nisl. Praesent sagittis consectetur libero. Donec placerat, ipsum a ornare porta, libero libero vehicula leo, tincidunt tempus lectus lectus sit amet massa. Pellentesque tincidunt eu ante quis sagittis. Sed laoreet tincidunt accumsan. Nullam scelerisque, dolor vitae ornare dictum, risus nisl vehicula mauris, vel placerat nisi magna sit amet purus. Nulla a sem augue. Donec ultricies dignissim malesuada. Suspendisse sed cursus velit. </p>
+            <h2> Share with Family </h2>
+            <p style="text-align: left;"> The family sharing feature on Heirloom is a great way to connect with loved ones and share your favorite recipes. With this feature, you can easily invite friends and family to join your recipe collection, allowing everyone to contribute their own dishes and access the shared recipes. This is a great way to build a collaborative cookbook filled with all of your family's favorite dishes that have been passed down through your family. The family sharing feature also makes it easy to plan and organize group meals, such as holiday dinners or potlucks. </p>
           </div>
           <div class="col">
             <img src="images/family cooking.gif">
@@ -78,13 +84,15 @@
             <img src="images/family cooking.gif">
           </div>
           <div class="col">
-            <h2> Feature 3 </h2>
-            <p style="text-align: left;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lacus arcu. Nam eget arcu non lacus sagittis suscipit vel vitae odio. Aenean id viverra diam. Sed in ex sollicitudin, placerat ante nec, laoreet nisl. Praesent sagittis consectetur libero. Donec placerat, ipsum a ornare porta, libero libero vehicula leo, tincidunt tempus lectus lectus sit amet massa. Pellentesque tincidunt eu ante quis sagittis. Sed laoreet tincidunt accumsan. Nullam scelerisque, dolor vitae ornare dictum, risus nisl vehicula mauris, vel placerat nisi magna sit amet purus. Nulla a sem augue. Donec ultricies dignissim malesuada. Suspendisse sed cursus velit. </p>
+            <h2> Digitize your Recipes </h2>
+            <p style="text-align: left;"> The digitization feature on Heirloom allows users to easily access and use their favorite recipes by storing them electronically in the app. This is a great way to organize and streamline your recipe collection, making it easier to find and use specific dishes. With the digitization feature, you can input recipes manually or use the app's built-in scanner to digitize physical recipes, such as those written on recipe cards or in cookbooks. The digitized recipes are then stored in the app and can be easily accessed and used from any device. </p>
           </div>
         </div>
       </div>
     </section>
 
+    <br>
+    <br>
     <br>
 
     <!-- About Us -->
@@ -92,18 +100,40 @@
       <div class="container">
         <div class="header">
           <h2> About Us </h2>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lacus arcu. Nam eget arcu non lacus sagittis suscipit vel vitae odio. Aenean id viverra diam. Sed in ex sollicitudin, placerat ante nec, laoreet nisl. Praesent sagittis consectetur libero. Donec placerat, ipsum a ornare porta, libero libero vehicula leo, tincidunt tempus lectus lectus sit amet massa. Pellentesque tincidunt eu ante quis sagittis. Sed laoreet tincidunt accumsan. Nullam scelerisque, dolor vitae ornare dictum, risus nisl vehicula mauris, vel placerat nisi magna sit amet purus. Nulla a sem augue. Donec ultricies dignissim malesuada. Suspendisse sed cursus velit.  </p> 
+          <p> Heirloom is more than just a recipe app – it’s a way to connect with your family and friends over the love of food. Our platform is designed to be the go-to resource for all things food and family, whether you’re looking to discover new recipes or share your traditional dishes with others. </p> 
+          <p> With Heirloom, you can easily store and access your family’s treasured recipes in one convenient place. And with the ability to share your recipes with friends and family, Heirloom becomes a virtual recipe box that’s always at your fingertips. </p>
+          <p> But we didn’t stop there. We also wanted to make cooking as easy and enjoyable as possible, which is why we’ve included a voice command feature that allows you to go hands-free in the kitchen. Simply speak your commands and let Heirloom be your virtual sous chef – it’s that simple. </p>
+          <p> So whether you’re a seasoned pro or a novice cook, Heirloom has something for everyone. We can’t wait to see what delicious dishes you create with the help of our app. Thank you for choosing Heirloom as your go-to resource for all things food and family. </p>
         </div>
-        <div class="tomato">
-          <img src="/Cooking Recipe App/images/tomato.png" class="float-start" width="200" height="200">
-        </div>
+
         <div class="appStores2">
-          <img src="/Cooking Recipe App/images/app-store-badge.svg" class="float-end" width="190" height="50">
-          <img src="/Cooking Recipe App/images/google-play-badge.svg" class="float-end" width="190" height="50">
+          <img src="/Cooking Recipe App/images/app-store-badge.svg" class="float-end" width="190" height="60">
+          <div class="spacer"> </div>
+          <img src="/Cooking Recipe App/images/google-play-badge.svg" class="float-end" width="190" height="60">
         </div>  
       </div>
       
     </section>
+
+    <!-- Footer -->
+    <footer class="footer d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <a class="navbar-brand" href="#">
+          <img src="/Cooking Recipe App/images/tomato.png" width="50" height="50">
+        </a>
+      <span class="mb-3 mb-md-0 text-muted"> © heirloom inc </span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="fa fa-facebook"> </a> </li>
+      <li class="ms-3"><a class="fa fa-twitter"> </a> </li>
+      <li class="ms-3"><a class="fa fa-youtube"> </a> </li>
+    </ul>
+  </footer>
+
 
   </body>
     

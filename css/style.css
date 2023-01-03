@@ -1,6 +1,7 @@
 body {
     background-color: #FFEBEC;
     color: #EE7650;
+    z-index: 1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-family: 'Raleway', serif;
+    font-family: 'Poppins', serif;
 }
 
 /* Navigation Section */
@@ -19,7 +20,13 @@ p {
 }
 
 .navbar-nav a:hover {
-    background-color: #FFE3E5 !important;
+    background-color: #FFFFFF !important;
+    border-radius: 20px;
+}
+
+.navbar-nav a {
+    border-radius: 20px;
+    margin-right: 15px;
 }
 
 /* Hero Section */
@@ -34,12 +41,13 @@ p {
 
 .hero h1 {
     text-align: right;
-    margin-right: 295px;
+    margin-right: 325px;
     padding-top: 300px;
 }
 
 .appStores {
     margin-right: 320px;
+    background-color: #EE7650;
 }
 
 .appStores img {
@@ -47,6 +55,11 @@ p {
 }
 
 /* Features Section */
+
+.features h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 .row img {
     max-width: 700px;
@@ -57,34 +70,87 @@ p {
 .row {
     background-color: #FFFFFF;
     border-radius: 25px;
+    padding-top: 15px;
 }
 
 .features .container {
-    max-width: 1000px;
+    max-width: 1050px;
+}
+
+.features .container h2 {
+    padding-left: 15px;
+}
+
+.features .container p {
+    padding-left: 15px;
+}
+
+.container img {
+    padding-bottom: 15px;
 }
 
 /* About Us Section */
 
 .about {
-    background-color: #FFE3E5;
-    padding-top: 25px;
-    padding-bottom: 150px;
+    background-image: url(../images/back.png);
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 .about .header {
     text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 15px;
 }
 
-.header {
+h2 {
     text-align: center;
 }
 
 .about .container {
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 .appStores2 {
     cursor: pointer;
-    margin-top: 80px;
-    margin-right: 300px;
+    margin-top: 50px;
+    margin-right: 345px;
+}
+
+/* Footer Section */
+.footer {
+    color: #EE7650;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa:hover {
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 20px;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 20px;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 20px;
 }
