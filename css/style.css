@@ -32,7 +32,7 @@ p {
 /* Hero Section */
 
 .hero {
-    background-image: url("../images/family\ cooking.gif");
+    background-image: url("../images/family cooking.gif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -69,8 +69,8 @@ p {
 }
 
 .row img {
-    max-width: 700px;
-    max-height: 350px;
+    max-width: 600px;
+    max-height: 300px;
     border-radius: 25px;
 }
 
@@ -81,19 +81,25 @@ p {
 }
 
 .features .container {
-    max-width: 1050px;
+    max-width: 850px;
 }
 
 .features .container h2 {
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 .features .container p {
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .container img {
     padding-bottom: 15px;
+}
+
+.container .col {
+    align-items: center;
+    justify-content: center;
 }
 
 /* About Us Section */
